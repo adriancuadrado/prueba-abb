@@ -1,0 +1,9 @@
+:host {
+  display: contents;
+}
+
+.background {
+  grid-column: 3 / 5;
+  grid-row: 2 / 5;
+  border-radius: 10px;
+}

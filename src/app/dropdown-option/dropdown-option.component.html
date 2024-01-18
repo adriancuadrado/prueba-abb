@@ -1,0 +1,13 @@
+<div
+  class="dropdown-option"
+  [class.dropdown-option--selected]="selected"
+  (mousedown)="choose.emit()"
+>
+  <span class="dropdown-option__text">{{ value }}</span>
+  <img
+    *ngIf="selected"
+    class="dropdown-option__check"
+    src="/assets/check.svg"
+    alt="check"
+  >
+</div>

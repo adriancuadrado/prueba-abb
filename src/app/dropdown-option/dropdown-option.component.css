@@ -1,0 +1,11 @@
+.dropdown-option {
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.dropdown-option--selected {
+  background-color: #3366FF;
+}

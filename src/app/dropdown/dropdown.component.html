@@ -1,0 +1,17 @@
+<div
+  class="dropdown"
+  tabindex="0"
+  (focusout)="open = false"
+>
+  <app-dropdown-input
+    [open]="open"
+    (toggle)="open = !open"
+    [text]="values[selectedIndex]"
+  />
+  <app-dropdown-list
+    *ngIf="open"
+    [values]="values"
+    [selectedIndex]="selectedIndex"
+    (choose)="handleChoose($event)"
+  />
+</div>

@@ -1,0 +1,8 @@
+<div class="dropdown-list">
+  <app-dropdown-option
+    *ngFor="let value of values; let i=index;"
+    [value]="value"
+    [selected]="i == selectedIndex"
+    (choose)="setSelectedIndex(i)"
+  />
+</div>

@@ -1,0 +1,8 @@
+<app-dropdown
+  [values]="dropdownValues"
+  [selectedIndex]="selectedIndex"
+  (choose)="setSelectedIndex($event)"
+/>
+<span class="left-pane__text">
+  Selected: {{ dropdownValues[selectedIndex] }}
+</span>

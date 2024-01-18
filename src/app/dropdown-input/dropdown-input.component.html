@@ -1,0 +1,13 @@
+<div
+  class="dropdown-input"
+  (click)="toggle.emit()"
+  tabindex="0"
+>
+  <span>{{ text }}</span>
+  <img
+    class="dropdown-input__arrow"
+    [class.dropdown-input__arrow--open]="!open"
+    src="/assets/chevron.svg"
+    alt="dropdown arrow"
+  >
+</div>
