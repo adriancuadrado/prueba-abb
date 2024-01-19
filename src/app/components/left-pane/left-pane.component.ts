@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DropdownComponent } from '../dropdown/dropdown.component';
-import { DropdownContentsService } from '../dropdown-contents.service';
+import { DropdownContentsService } from '../../services/dropdown-contents.service';
 
 @Component({
   selector: 'app-left-pane',

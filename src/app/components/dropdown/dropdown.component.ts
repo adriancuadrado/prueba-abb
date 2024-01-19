@@ -1,7 +1,8 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { DropdownListComponent } from '../dropdown-list/dropdown-list.component';
 import { CommonModule } from '@angular/common';
-import { DropdownInputComponent } from '../dropdown-input/dropdown-input.component';
+import { DropdownInputComponent } from './dropdown-input/dropdown-input.component';
+import { DropdownListComponent } from './dropdown-list/dropdown-list.component';
+
 
 @Component({
   selector: 'app-dropdown',

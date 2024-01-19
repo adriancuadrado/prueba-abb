@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BackgroundComponent } from '../background/background.component';
-import { PopupComponent } from '../popup/popup.component';
+import { BackgroundComponent } from '../components/background/background.component';
+import { PopupComponent } from '../components/popup/popup.component';
 
 @Component({
   selector: 'app-home',
